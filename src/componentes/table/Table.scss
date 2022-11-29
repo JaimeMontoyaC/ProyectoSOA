@@ -1,0 +1,129 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  text-align: left;
+}
+
+#customers td:hover {background-color: white;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+table{
+    width: 90% !important;
+    margin: auto;
+}
+
+tr{
+    background: lightgray;
+}
+
+label{
+  color: white;
+}
+
+input {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+.form-table {
+  margin: 15px auto;
+  width: 242px;
+  display: inline-grid;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.form-table span {
+  color: hsl(5, 50%, 57%);
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  width: 36px;
+}
+
+.form-table input {
+  border: none;
+  height: 48px;
+  outline: none;
+}
+
+.form-table input[type="text"],input[type="number"],input[type="email"] {
+  background-color: #fff;
+  border-top: 2px solid #2c90c6;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  color: #363636;
+  padding-left: 36px;
+  width: 204px;
+}
+
+.form-table input[type="submit"] {
+  background-color: #2c90c6;
+  border: 1px solid #2c90c6;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.form-table input[type="submit"]:hover {
+  background-color: #2c70c6;
+  box-shadow: 2px 2px 20px #2c90c6, #fff 0 -1px 2px;
+}
+
+#input-search-empresa:disabled, #input-search-id:disabled, #input-search-name:disabled{
+  opacity: 0.2;
+}
+
+#delete-button{
+  background-color: #2c90c6;
+  border: 1px solid #2c90c6;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 240px;
+  position: revert;
+  font-size: 12px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#delete-button:hover{
+  background-color: red;
+}
